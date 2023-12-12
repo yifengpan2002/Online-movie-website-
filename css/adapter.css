@@ -1,0 +1,52 @@
+@media screen and (min-width:970px) {
+    .adapter {
+        display: block;
+    }
+}
+
+@media screen and (max-width:970px) {
+    .adapter {
+        display: none;
+    }
+}
+
+.root {
+    margin-top: 71px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/bannerbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+}
+
+.news-list {
+    background-color: white;
+    padding: 10px 5px;
+}
+
+.news-text {
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #252525;
+    color: #777;
+    width: 100%;
+    padding: 30px;
+}
+
+.location {
+    text-align: center;
+}
+
+.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.display-flex>[class*='col-'] {
+    flex-grow: 1;
+    justify-content: center;
+}
